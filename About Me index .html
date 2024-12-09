@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>  
+      body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5c7277;
+  color: #f4f1de;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f4f1de;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ffd700;
+}
+
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #809fa7;
+  color: #f4f1de;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  max-width: 300px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center; /* Ensure centering inside card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #537873;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 0 auto; /* Center button horizontally */
+  display: block; /* Needed for centering */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #111;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #5c7277;
+  color: #f4f1de;
+  margin-top: 30px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  </style>
+  </head>
+}
+      
+      
+      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>About Me - Morgan Smith</title>
+</head>
+<body>
+  <header>
+    <div class="logo">About Me</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Back</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <h1>Morgan Smith</h1>
+      <p>Welcome to my portfolio! I am a passionate about all things art and always striving to create and connect.</p>
+    </section>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Resume</h2>
+            <p><button class="button">Click to view</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Get In Touch!</h2>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 Morgan Smith. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
